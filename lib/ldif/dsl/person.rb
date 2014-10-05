@@ -1,3 +1,5 @@
+require 'digest'
+
 module LDIF
   module DSL
     class Person < Struct.new(:first_name, :second_name, :password)
